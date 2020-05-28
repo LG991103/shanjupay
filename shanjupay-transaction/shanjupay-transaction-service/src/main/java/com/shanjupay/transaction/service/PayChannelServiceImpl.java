@@ -185,7 +185,7 @@ public class PayChannelServiceImpl implements PayChannelService{
         return PayChannelParamConvert.INSTANCE.listentity2listdto(payChannelParams);
 
     }
-
+//
     @Override
     public PayChannelParamDTO queryParamByAppPlatformAndPayChannel(String appId, String platformChannel, String payChannel) throws BusinessException {
         List<PayChannelParamDTO> payChannelParamDTOS = queryPayChannelParamByAppAndPlatform(appId,
