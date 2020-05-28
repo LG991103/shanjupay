@@ -25,7 +25,7 @@ public class AuthFilter extends ZuulFilter {
 	public boolean shouldFilter() {
 		return true;
 	}
-
+	//之间拦截
 	@Override
 	public String filterType() {
 		return "pre";
