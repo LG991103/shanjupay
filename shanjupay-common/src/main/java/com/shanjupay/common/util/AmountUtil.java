@@ -1,5 +1,5 @@
 package com.shanjupay.common.util;
-
+// common
 import java.math.BigDecimal;
 
 /**
