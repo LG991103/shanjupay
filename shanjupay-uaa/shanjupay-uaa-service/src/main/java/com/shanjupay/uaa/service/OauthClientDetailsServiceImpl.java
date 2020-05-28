@@ -37,7 +37,7 @@ public class OauthClientDetailsServiceImpl implements OauthClientDetailsService 
                 .createTime(LocalDateTime.now())
                 .archived(false)
                 .trusted(false);
-
+//
         oauthRepository.saveOauthClientDetails(clientDetails);
         log.info("{} | Save OauthClientDetails: {}", WebUtils.getIp(), clientDetails);
     }
